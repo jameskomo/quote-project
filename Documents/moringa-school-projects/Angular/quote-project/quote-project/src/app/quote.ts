@@ -1,8 +1,11 @@
 export class Quote {
+  public showDescription:boolean;
          constructor(
            public title: string,
-           public theQuote: string,
+           public description: string,
            public author: string,
-           public submitter: string
-         ) {}
+           public submittedBy: string
+         ) {
+           this.showDescription=false
+         }
        }
