@@ -8,6 +8,8 @@ import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { HighlightVotesDirective } from './highlight-votes.directive';
 import { TimeCountPipe } from './time-count.pipe';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { TimeCountPipe } from './time-count.pipe';
     QuoteComponent,
     QuoteDetailsComponent,
     HighlightVotesDirective,
-    TimeCountPipe
+    TimeCountPipe,
+    QuoteFormComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
