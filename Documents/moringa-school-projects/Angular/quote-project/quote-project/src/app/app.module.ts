@@ -7,6 +7,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { HighlightVotesDirective } from './highlight-votes.directive';
+import { TimeCountPipe } from './time-count.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HighlightVotesDirective } from './highlight-votes.directive';
     NavBarComponent,
     QuoteComponent,
     QuoteDetailsComponent,
-    HighlightVotesDirective
+    HighlightVotesDirective,
+    TimeCountPipe
   ],
   imports: [
     BrowserModule,
