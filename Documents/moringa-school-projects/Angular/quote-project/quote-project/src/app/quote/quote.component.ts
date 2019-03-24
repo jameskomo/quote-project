@@ -8,12 +8,18 @@ import { Quote } from '@angular/compiler';
 })
 export class QuoteComponent implements OnInit {
   quotes = [
-    new Quote('', '', '', ''),
-    new Quote('', '', '', ''),
-    new Quote('', '', '', ''),
-    new Quote('', '', '', ''),
-    new Quote('', '', '', ''),
+    new Quote(1,'', '', '', ''),
+    new Quote(2,'', '', '', ''),
+    new Quote(3,'', '', '', ''),
+    new Quote(4, '', '', '', ''),
+    new Quote(5, '', '', '', ''),
   ];
+  completeQuote(isComplete,index){
+        if (isComplete){
+            this.quotes.splice(index,1);
+            }
+            }
+
   toogleDetails(index){
         this.quotes[index].showDescription = !this.quotes[index].showDescription;
     }
