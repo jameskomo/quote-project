@@ -7,12 +7,5 @@ import { Quote } from './quote';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'quote-project';
-  goals = [
-    new Quote(',', ',', ','),
-    new Quote(',', ',', ','),
-    new Quote(',', ',', ','),
-    new Quote(',', ',', ','),
-    new Quote(',', ',', ','),
-  ];
+
 }
