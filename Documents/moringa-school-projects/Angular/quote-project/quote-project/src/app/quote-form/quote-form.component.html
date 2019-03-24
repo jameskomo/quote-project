@@ -1,27 +1,24 @@
-<form>
-  <div class="form-group">
+<app-quote-form></app-quote-form>
+<div class="container-fluid">
+  <div class="row">
+    <form>
+      <div class="form-group">
 
-    <label for="id">Title</label>
-    <input type="text" required class="form-control" id="id">
-  </div>
-  <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" required class="form-control" id="name">
 
-    <label for="title">Title</label>
-    <input type="text" required class="form-control" id="title">
-  </div>
-  <div class="form-group">
+      </div>
+      <div class="form-group">
 
-    <label for="author">Title</label>
-    <input type="text" required class="form-control" id="author">
-  </div>
-  <div class="form-group">
+        <label for="description">Description</label>
+        <textarea class="form-control" id="description" rows="4" required></textarea>
 
-    <label for="quoteDescription">Title</label>
-    <input type="text" required class="form-control" id="quoteDescription">
-  </div>
-  <div class="form-group">
-    <label for="complete">Completion</label>
-    <input type='date' id="complete" required>
+      </div>
+      <div class="form-group">
+        <label for="complete">Completion</label>
+        <input type='date' id="complete" required>
 
+      </div>
+    </form>
   </div>
-</form>
+</div>

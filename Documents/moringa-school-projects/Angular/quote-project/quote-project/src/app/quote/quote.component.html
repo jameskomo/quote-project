@@ -1,16 +1,11 @@
-<app-quote-form></app-quote-form>
-<h1>Quotes</h1>
 
-<hr>
-
+<h1> Quotes </h1>
 <ul>
   <div *ngFor='let quote of quotes;let i = index'>
-      {{quote.submissionDate|date}}
-    <li appHighlightVotes>{{quote.title}}</li>
-    <button (click)='toogleDetails(i)'>Toggle Details</button>
+    <li>{{quote.name}}</li>
+    <button (click)='toggleDetails(i)'>Toggle Details</button>
 
-    <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)='completequote($event,i)'>
-    </app-quote-details>
-
+    <app-quote-details *ngIf="quote.showDescription" [quote]='quote'></app-quote-details>
   </div>
 </ul>
+<p *ngIf='quotes.length <1'>You have no quotes. Add some</p>

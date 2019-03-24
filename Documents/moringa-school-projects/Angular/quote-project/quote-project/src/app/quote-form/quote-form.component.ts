@@ -1,15 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Quote } from '../quote';
+import { OnInit } from '@angular/core';
 
-@Component({
-  selector: 'app-quote-form',
-  templateUrl: './quote-form.component.html',
-  styleUrls: ['./quote-form.component.css']
-})
 export class QuoteFormComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+  newQuote = new Quote('', '', '', new Date(), 0, 0);
+         ngOnInit(): void {
+           throw new Error('Method not implemented.');
+         }
+       }
