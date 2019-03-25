@@ -18,7 +18,7 @@ You need a smartphone, laptop, desktop or any gadget sreen accessible to interne
 
 -Browsers include either: Google Chrome, Mozilla Firefox, Opera, Edge.
 
--Stack: Angual 7, TypeScript, JavaScript ES6 ,jQuery, Bootstrap 4.0, HTML5 & CSS3.
+-Stack: Angual 7, TypeScript, JavaScript ES6 , Bootstrap 4.0, HTML5 & CSS3.
 
 ## Behaviour Driven Development (BDD)
 | Input                    	| Ouput                                                                                        	|
