@@ -27,7 +27,8 @@
           placeholder="Your name" required>
       </div>
       <button type="submit" class="btn btn-success btn-lg">Add Quote</button>
-      </form>
+      <button id=cancelQuote class="btn btn-warning" (click)='onCancel()'>Cancel</button>
+    </form>
   </div>
 
   <div class="container">
@@ -58,11 +59,12 @@
               <div class="col-3 action">
                 {{quote.downvotes}}
               </div>
+               <button class="btn btn-danger" (click)='delete(i)'>Delete Quote </button>
+
             </div>
           </div>
         </div>
-         <button class="btn btn-primary" (click)='delete(i)'>Delete</button>
       </div>
     </div>
   </div>
- </div>
+</div>
