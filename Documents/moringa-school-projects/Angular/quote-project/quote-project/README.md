@@ -13,6 +13,13 @@ To test this website here is a live demo of the site https://jameskomo.github.io
 
 You need a smartphone, laptop, desktop or any gadget sreen accessible to internet. Open from a friendly browser.
 
+## Technologies Used
+-IDEs: Atom, VScode and Sublime Editor 
+
+-Browsers include either: Google Chrome, Mozilla Firefox, Opera, Edge.
+
+-Stack: Angual 7, TypeScript, JavaScript ES6 ,jQuery, Bootstrap 4.0, HTML5 & CSS3.
+
 ## Behaviour Driven Development (BDD)
 | Input                    	| Ouput                                                                                        	|
 |--------------------------	|----------------------------------------------------------------------------------------------	|
@@ -22,6 +29,16 @@ You need a smartphone, laptop, desktop or any gadget sreen accessible to interne
 | User clicks Cancel       	| The main view displays and the quote is not added                                            	|
 | User clicks Thumbs UP    	| The thumbs up icon imported from Fontawesome increments the upvote value by 1 on each click  	|
 | User clicks Thumbs DOWN  	| The thumbs up icon imported from Fontawesome decreased the downvote value by 1 on each click 	|
+
+## License Information
+
+MIT License Copyright(c)2019 James Komo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ## Development server
@@ -47,3 +64,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Contact Information
+
+Email: james.komoh.com Skype: james.komo
