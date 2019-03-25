@@ -25,17 +25,14 @@ export class QuoteComponent implements OnInit {
     new Quote('Trust yourself. You know more than you think you do.', 'Benjamin Spock', 'User2', new Date(), 0, 0),
   ];
 
-  // This method associate to New Button.
+  // Creates new quote when called
   onNew() {
     // Initiate new quote.
     this.quoteModel = new Quote('', '', '', new Date(), 0, 0);
-    // Change submitType to 'Save'.
     this.submitType = 'Save';
     // display quote entry section.
     this.showNew = true;
   }
-
-  // This method associate to Save Button.
   onSave() {
     if (this.submitType === 'Save') {
       // Push quote model object into quote list.
@@ -50,9 +47,6 @@ export class QuoteComponent implements OnInit {
     // Hide quote entry section.
     this.showNew = false;
   }
-
-
-
   delete(i) {
     this.quotes.splice(i, 1);
   }
