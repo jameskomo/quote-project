@@ -9,9 +9,20 @@ Version 1.0.0
 James Komo
 
 ## Demo Website
-To test this website here is a live demo of the site https://jameskomo.github.io/banks-loans-calculator/.
+To test this website here is a live demo of the site https://jameskomo.github.io/quote-project/.
 
 You need a smartphone, laptop, desktop or any gadget sreen accessible to internet. Open from a friendly browser.
+
+## Behaviour Driven Development (BDD)
+| Input                    	| Ouput                                                                                        	|
+|--------------------------	|----------------------------------------------------------------------------------------------	|
+| User clicks Post a Quote 	| Quote form displays with input fields for Author, Title, Quote and Poster Name.              	|
+| User clicks Add Quote    	| The quote is added as a card with Author, Title, Quote and Poster Name information included  	|
+| User Clicks Delete       	| The quote is purged from view                                                                	|
+| User clicks Cancel       	| The main view displays and the quote is not added                                            	|
+| User clicks Thumbs UP    	| The thumbs up icon imported from Fontawesome increments the upvote value by 1 on each click  	|
+| User clicks Thumbs DOWN  	| The thumbs up icon imported from Fontawesome decreased the downvote value by 1 on each click 	|
+
 
 ## Development server
 
