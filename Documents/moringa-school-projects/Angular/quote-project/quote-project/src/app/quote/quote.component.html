@@ -11,7 +11,7 @@
         <textarea class="form-control" [(ngModel)]="quoteModel.text" placeholder="Write your quote here" rows="6"
           name="text" id="text-input" required></textarea>
         <div class="alert alert-danger" *ngIf="text-input.touched && !text-input.valid">
-          You must enter a quote
+          You must enter a quote to continue
         </div>
       </div>
 
