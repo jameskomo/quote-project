@@ -1,6 +1,17 @@
 # QuoteProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+This is an Angular Project where users can create quotes and have those quotes voted on whether they are terrible or are inspirational. As a user you will be able to:  Create a new quote. Upvote or downvote a quote. Delete a quote See the number of upvotes and number of downvotes for each quote.
+
+Version 1.0.0
+
+## Author Information
+
+James Komo
+
+## Demo Website
+To test this website here is a live demo of the site https://jameskomo.github.io/banks-loans-calculator/.
+
+You need a smartphone, laptop, desktop or any gadget sreen accessible to internet. Open from a friendly browser.
 
 ## Development server
 
